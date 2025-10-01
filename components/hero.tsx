@@ -53,7 +53,7 @@ export default function Hero() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/óscargarcíaesp"
+              href="https://www.linkedin.com/in/oscar-garciaesp/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 hover:text-orange-500 transition-colors"
