@@ -23,8 +23,8 @@ export default function Contact() {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "óscargarcíaesp",
-      href: "https://linkedin.com/in/óscargarcíaesp",
+      value: "oscargarciaesp",
+      href: "https://www.linkedin.com/in/oscar-garciaesp/",
       color: "text-orange-500",
     },
     {
