@@ -23,7 +23,7 @@ export default function Projects() {
       description:
         "A task management application built with React. Clean and modern interface for creating, editing, and organizing your daily tasks efficiently.",
       image: "/images/reactodoapp.png",
-      liveUrl: "https://react-todo-app-six-kappa.vercel.app/",
+      liveUrl: "https://react-todo-app-seven-flax.vercel.app/",
       technologies: ["React", "TypeScript", "Tailwind CSS"],
       featured: true,
     },
