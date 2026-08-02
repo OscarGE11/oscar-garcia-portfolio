@@ -240,13 +240,7 @@ export const translations = {
             'Refactored critical components under Clean Code principles to improve maintainability',
             'Collaborated with product teams to translate financial and mortgage logic into efficient interfaces',
           ],
-          technologies: [
-            'TypeScript',
-            'Next.js',
-            'React',
-            'Vercel',
-            'Tailwind',
-          ],
+          technologies: ['TypeScript', 'Next.js', 'React', 'Vercel', 'AntD'],
         },
         {
           company: 'GAHN Logística y Gestión',
@@ -297,16 +291,11 @@ export const translations = {
         },
         {
           title: 'AI & Workflow',
-          skills: ['Claude Code', 'Cursor', 'Git', 'Vercel CI/CD'],
+          skills: ['Claude Code', 'Cursor', 'Git', 'Vercel'],
         },
         {
           title: 'Architecture',
-          skills: [
-            'Clean Code',
-            'Clean Architecture',
-            'Micro-frontends',
-            'SaaS',
-          ],
+          skills: ['Clean Code', 'Clean Architecture', 'SaaS'],
         },
       ],
     },
@@ -315,14 +304,14 @@ export const translations = {
       viewProject: 'View Project',
       items: [
         {
-          title: 'Vera Croma',
-          description:
-            'A color palette generator tool built with Angular. Features an intuitive interface for creating and exploring color combinations with real-time preview.',
-        },
-        {
           title: 'Cerbero',
           description:
             'Personal expense and income tracker with a Telegram bot and web dashboard. Log transactions from chat, browse categories, and review your history through a Next.js interface backed by Supabase.',
+        },
+        {
+          title: 'Vera Croma',
+          description:
+            'A color palette generator tool built with Angular. Features an intuitive interface for creating and exploring color combinations with real-time preview.',
         },
       ],
     },
