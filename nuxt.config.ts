@@ -16,7 +16,7 @@ export default defineNuxtConfig({
             'Portfolio de Óscar García, desarrollador full-stack con foco en TypeScript, Next.js y React. Experiencia en Angular y Java.',
         },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     },
   },
 })
