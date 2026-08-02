@@ -111,9 +111,9 @@ export const translations = {
             "Generador de paletas de colores construido con Angular. Interfaz intuitiva para crear y explorar combinaciones de colores con vista previa en tiempo real.",
         },
         {
-          title: "React Todo App",
+          title: "Cerbero",
           description:
-            "Aplicación de gestión de tareas construida con React. Interfaz limpia y moderna para crear, editar y organizar tus tareas diarias de forma eficiente.",
+            "Tracker personal de gastos e ingresos con bot de Telegram y dashboard web. Registra movimientos desde el chat, visualiza categorías y consulta tu historial desde una interfaz Next.js conectada a Supabase.",
         },
       ],
     },
@@ -270,9 +270,9 @@ export const translations = {
             "A color palette generator tool built with Angular. Features an intuitive interface for creating and exploring color combinations with real-time preview.",
         },
         {
-          title: "React Todo App",
+          title: "Cerbero",
           description:
-            "A task management application built with React. Clean and modern interface for creating, editing, and organizing your daily tasks efficiently.",
+            "Personal expense and income tracker with a Telegram bot and web dashboard. Log transactions from chat, browse categories, and review your history through a Next.js interface backed by Supabase.",
         },
       ],
     },

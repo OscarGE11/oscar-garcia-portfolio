@@ -12,9 +12,9 @@ const projectMeta = [
     technologies: ['Angular', 'TypeScript', 'CSS3'],
   },
   {
-    image: '/images/reactodoapp.png',
-    liveUrl: 'https://react-todo-app-seven-flax.vercel.app/',
-    technologies: ['React', 'TypeScript', 'Tailwind CSS'],
+    image: '/images/cerbero.png',
+    liveUrl: 'https://cerbero-dashboard.vercel.app',
+    technologies: ['TypeScript', 'Next.js', 'Supabase', 'Telegram'],
   },
 ]
 
