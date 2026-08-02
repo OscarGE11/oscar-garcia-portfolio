@@ -7,15 +7,16 @@ const hoveredProject = ref<number | null>(null)
 
 const projectMeta = [
   {
-    image: '/images/veracroma.png',
-    liveUrl: 'https://vera-croma.vercel.app/home',
-    technologies: ['Angular', 'TypeScript', 'CSS3'],
-  },
-  {
     image: '/images/cerbero.png',
     liveUrl: 'https://cerbero-dashboard.vercel.app',
     technologies: ['TypeScript', 'Next.js', 'Supabase', 'Telegram'],
   },
+  {
+    image: '/images/veracroma.png',
+    liveUrl: 'https://vera-croma.vercel.app/home',
+    technologies: ['Angular', 'TypeScript', 'CSS3'],
+  },
+  
 ]
 
 function openProject(url: string) {
