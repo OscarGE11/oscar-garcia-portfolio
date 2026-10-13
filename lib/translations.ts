@@ -5,7 +5,7 @@ export const translations = {
     meta: {
       title: 'Óscar García - Full-Stack Developer',
       description:
-        'Portfolio de Óscar García, desarrollador full-stack con foco en TypeScript, Next.js y React. Experiencia en Angular y Java.',
+        'Portfolio de Óscar García, desarrollador full-stack: TypeScript (Next.js, React), NestJS y TypeORM en SaaS Fintech. Proyectos personales con FastAPI y Python. Experiencia en Angular y Java.',
     },
     nav: {
       about: 'Sobre mí',
@@ -17,26 +17,26 @@ export const translations = {
     hero: {
       title: 'Full-Stack Developer',
       description:
-        'Especializado en TypeScript (Next.js, React), con experiencia en Angular y Java. Desarrollo aplicaciones completas en sectores Fintech y Logística.',
+        'Desarrollador full-stack: frontend con TypeScript (Next.js, React) y backend con NestJS y TypeORM en SaaS Fintech. En proyectos personales también uso FastAPI con Python. Experiencia previa en Angular y Java.',
       contactMe: 'Contáctame',
       viewProjects: 'Ver proyectos',
     },
     about: {
       title: 'Sobre mí',
       paragraph1:
-        'Desarrollador full-stack con experiencia en sectores Fintech y Logística. TypeScript es mi stack principal, con una base sólida en Angular y Java que sigo aplicando según el proyecto.',
+        'Desarrollador full-stack con experiencia en Fintech y Logística. El último año he estado más centrado en frontend, pero también desarrollo APIs con NestJS según producto va definiendo las funcionalidades.',
       paragraph2:
-        'Me gusta escribir código mantenible, aprender en cada proyecto y usar herramientas de IA (Cursor, Claude Code) para ser más productivo. Busco entender el porqué de cada decisión técnica antes de implementarla.',
+        'En proyectos personales uso FastAPI con Python en el backend. Me gusta escribir código mantenible, aprender en cada proyecto y usar herramientas de IA (Cursor, Claude Code) para ser más productivo.',
       highlights: [
         {
-          title: 'TypeScript como foco',
+          title: 'Stack full-stack',
           description:
-            'Trabajo principalmente con Next.js y React, apoyándome en Angular y Java',
+            'Next.js y React en frontend; NestJS y TypeORM en backend de producto',
         },
         {
           title: 'Desarrollo full-stack',
           description:
-            'Experiencia construyendo aplicaciones completas, de frontend a backend',
+            'Refactor y arquitectura SaaS para escalar y dar de alta nuevos clientes con menos fricción',
         },
         {
           title: 'Aprendizaje continuo',
@@ -51,15 +51,16 @@ export const translations = {
       items: [
         {
           company: 'gibobs allbanks',
-          position: 'Frontend Engineer',
+          position: 'Desarrollador Full-Stack',
           period: 'Enero 2026 - Actual',
           description: [
-            'Migración de variables de entorno y estilos de build-time a run-time, optimizando el pipeline CI/CD en Vercel para un entorno SaaS dinámico',
+            'Refactor del frontend del SaaS para hacerlo más escalable y dar de alta nuevos clientes con menos fricción',
+            'Desarrollo de endpoints en NestJS según producto explica los requisitos de cada funcionalidad, con TypeORM',
+            'Migración de variables de entorno y estilos de build-time a run-time, optimizando el pipeline CI/CD en Vercel',
             'Integración de desarrollo asistido por IA (Claude) para acelerar la entrega de features y refactorizaciones',
-            'Refactorización de componentes críticos bajo principios de Clean Code para mejorar la mantenibilidad',
-            'Colaboración con equipos de producto para traducir lógica financiera e hipotecaria en interfaces eficientes',
+            'Colaboración con producto para traducir lógica financiera e hipotecaria en interfaces y APIs eficientes',
           ],
-          technologies: ['TypeScript', 'Next.js', 'React', 'Vercel', 'AntD'],
+          technologies: ['TypeScript', 'Next.js', 'React', 'NestJS', 'TypeORM', 'Vercel'],
         },
         {
           company: 'GAHN Logística y Gestión',
@@ -100,12 +101,15 @@ export const translations = {
         {
           title: 'Backend & DB',
           skills: [
+            'NestJS',
+            'TypeORM',
             'Node.js',
+            'Python',
+            'FastAPI',
             'Java',
             'Spring Boot',
             'PostgreSQL',
             'SQL',
-            'MongoDB',
           ],
         },
         {
@@ -187,7 +191,7 @@ export const translations = {
     meta: {
       title: 'Óscar García - Full-Stack Developer',
       description:
-        'Portfolio of Óscar García, full-stack developer focused on TypeScript, Next.js and React. Experience with Angular and Java.',
+        'Portfolio of Óscar García, full-stack developer: TypeScript (Next.js, React), NestJS and TypeORM in Fintech SaaS. Personal projects with FastAPI and Python. Experience with Angular and Java.',
     },
     nav: {
       about: 'About',
@@ -199,26 +203,26 @@ export const translations = {
     hero: {
       title: 'Full-Stack Developer',
       description:
-        'Specialized in TypeScript (Next.js, React), with experience in Angular and Java. Building complete applications in Fintech and Logistics.',
+        'Full-stack developer: TypeScript frontend (Next.js, React) and NestJS backend with TypeORM in Fintech SaaS. I also use FastAPI with Python on personal projects. Previous experience with Angular and Java.',
       contactMe: 'Contact Me',
       viewProjects: 'View Projects',
     },
     about: {
       title: 'About Me',
       paragraph1:
-        'Full-stack developer with experience in Fintech and Logistics. TypeScript is my main stack, with a solid foundation in Angular and Java that I still apply depending on the project.',
+        'Full-stack developer with experience in Fintech and Logistics. Over the last year I have been more frontend-focused, but I also build APIs with NestJS as product defines requirements for new features.',
       paragraph2:
-        'I enjoy writing maintainable code, learning from every project, and using AI tools (Cursor, Claude Code) to be more productive. I aim to understand the why behind each technical decision before implementing it.',
+        'On personal projects I use FastAPI with Python on the backend. I enjoy writing maintainable code, learning from every project, and using AI tools (Cursor, Claude Code) to stay productive.',
       highlights: [
         {
-          title: 'TypeScript focus',
+          title: 'Full-stack stack',
           description:
-            'Working mainly with Next.js and React, backed by Angular and Java',
+            'Next.js and React on the frontend; NestJS and TypeORM on product backend',
         },
         {
           title: 'Full-stack development',
           description:
-            'Experience building complete applications, from frontend to backend',
+            'SaaS refactors and architecture to scale and onboard new clients more easily',
         },
         {
           title: 'Continuous learning',
@@ -232,15 +236,16 @@ export const translations = {
       items: [
         {
           company: 'gibobs allbanks',
-          position: 'Frontend Engineer',
+          position: 'Full-Stack Developer',
           period: 'January 2026 - Present',
           description: [
-            'Migrated build-time environment variables and styles to run-time, optimizing the Vercel CI/CD pipeline for a dynamic SaaS environment',
+            'Refactored the SaaS frontend to scale better and onboard new clients with less friction',
+            'Built NestJS endpoints as product explained requirements for each feature, using TypeORM',
+            'Migrated build-time environment variables and styles to run-time, optimizing the Vercel CI/CD pipeline',
             'Integrated AI-assisted development (Cursor/Claude) to accelerate feature delivery and refactors',
-            'Refactored critical components under Clean Code principles to improve maintainability',
-            'Collaborated with product teams to translate financial and mortgage logic into efficient interfaces',
+            'Worked with product to translate financial and mortgage logic into efficient interfaces and APIs',
           ],
-          technologies: ['TypeScript', 'Next.js', 'React', 'Vercel', 'AntD'],
+          technologies: ['TypeScript', 'Next.js', 'React', 'NestJS', 'TypeORM', 'Vercel'],
         },
         {
           company: 'GAHN Logística y Gestión',
@@ -281,12 +286,15 @@ export const translations = {
         {
           title: 'Backend & DB',
           skills: [
+            'NestJS',
+            'TypeORM',
             'Node.js',
+            'Python',
+            'FastAPI',
             'Java',
             'Spring Boot',
             'PostgreSQL',
             'SQL',
-            'MongoDB',
           ],
         },
         {

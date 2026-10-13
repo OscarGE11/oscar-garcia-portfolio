@@ -21,16 +21,17 @@ const scrollToSection = (id: string) => {
         <h2 class="text-2xl md:text-3xl text-orange-500 font-semibold">{{ t.hero.title }}</h2>
         <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto text-pretty">
           <template v-if="locale === 'es'">
-            Especializado en <span class="text-green-500 font-semibold">TypeScript</span> (Next.js, React), con
-            experiencia en <span class="text-green-500 font-semibold">Angular</span> y
-            <span class="text-green-500 font-semibold">Java</span>. Desarrollo aplicaciones completas en Fintech y
-            Logística.
+            Desarrollador full-stack: frontend con
+            <span class="text-green-500 font-semibold">TypeScript</span> (Next.js, React) y backend con
+            <span class="text-green-500 font-semibold">NestJS</span> y TypeORM en SaaS Fintech. En proyectos
+            personales también uso
+            <span class="text-green-500 font-semibold">FastAPI</span> con Python. Experiencia previa en Angular y Java.
           </template>
           <template v-else>
-            Specialized in <span class="text-green-500 font-semibold">TypeScript</span> (Next.js, React), with
-            experience in <span class="text-green-500 font-semibold">Angular</span> and
-            <span class="text-green-500 font-semibold">Java</span>. Building complete applications in Fintech and
-            Logistics.
+            Full-stack developer: <span class="text-green-500 font-semibold">TypeScript</span> frontend (Next.js,
+            React) and <span class="text-green-500 font-semibold">NestJS</span> backend with TypeORM in Fintech SaaS. I
+            also use <span class="text-green-500 font-semibold">FastAPI</span> with Python on personal projects.
+            Previous experience with Angular and Java.
           </template>
         </p>
 

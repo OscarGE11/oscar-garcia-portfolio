@@ -13,7 +13,7 @@ export default defineNuxtConfig({
         {
           name: 'description',
           content:
-            'Portfolio de Óscar García, desarrollador full-stack con foco en TypeScript, Next.js y React. Experiencia en Angular y Java.',
+            'Portfolio de Óscar García, desarrollador full-stack: TypeScript (Next.js, React), NestJS y TypeORM en SaaS Fintech. Proyectos personales con FastAPI y Python. Experiencia en Angular y Java.',
         },
       ],
       link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
