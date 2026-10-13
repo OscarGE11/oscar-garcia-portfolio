@@ -5,7 +5,7 @@ export const translations = {
     meta: {
       title: 'Óscar García - Full-Stack Developer',
       description:
-        'Portfolio de Óscar García, desarrollador full-stack: TypeScript (Next.js, React), NestJS y TypeORM en SaaS Fintech. Proyectos personales con FastAPI y Python. Experiencia en Angular y Java.',
+        'Portfolio de Óscar García, desarrollador full-stack con experiencia en Fintech. TypeScript de punta a punta y Python (FastAPI) en proyectos propios.',
     },
     nav: {
       about: 'Sobre mí',
@@ -17,31 +17,31 @@ export const translations = {
     hero: {
       title: 'Full-Stack Developer',
       description:
-        'Desarrollador full-stack: frontend con TypeScript (Next.js, React) y backend con NestJS y TypeORM en SaaS Fintech. En proyectos personales también uso FastAPI con Python. Experiencia previa en Angular y Java.',
+        'Desarrollador full-stack con experiencia en Fintech. Trabajo con TypeScript de punta a punta y uso Python (FastAPI) para el backend en mis proyectos propios.',
       contactMe: 'Contáctame',
       viewProjects: 'Ver proyectos',
     },
     about: {
       title: 'Sobre mí',
       paragraph1:
-        'Desarrollador full-stack con experiencia en Fintech y Logística. El último año he estado más centrado en frontend, pero también desarrollo APIs con NestJS según producto va definiendo las funcionalidades.',
+        'Organicé la migración de un sistema a arquitectura multitenant, reduciendo los tiempos de despliegue y agilizando el alta de nuevos tenants.',
       paragraph2:
-        'En proyectos personales uso FastAPI con Python en el backend. Me gusta escribir código mantenible, aprender en cada proyecto y usar herramientas de IA (Cursor, Claude Code) para ser más productivo.',
+        'Me interesa que las aplicaciones escalen y que el equipo pueda trabajar con ellas sin fricción, como en la migración multitenant.',
       highlights: [
         {
-          title: 'Stack full-stack',
+          title: 'TypeScript de punta a punta',
           description:
-            'Next.js y React en frontend; NestJS y TypeORM en backend de producto',
+            'Frontend con TypeScript; backend con Python y FastAPI en proyectos propios',
         },
         {
-          title: 'Desarrollo full-stack',
+          title: 'Arquitectura multitenant',
           description:
-            'Refactor y arquitectura SaaS para escalar y dar de alta nuevos clientes con menos fricción',
+            'Migración de build-time a run-time para escalar y dar de alta nuevos clientes con menos fricción',
         },
         {
-          title: 'Aprendizaje continuo',
+          title: 'Código mantenible',
           description:
-            'Siempre explorando nuevas tecnologías y buenas prácticas',
+            'Clean Code y decisiones técnicas pensadas para el equipo a largo plazo',
         },
       ],
     },
@@ -54,13 +54,12 @@ export const translations = {
           position: 'Desarrollador Full-Stack',
           period: 'Enero 2026 - Actual',
           description: [
-            'Refactor del frontend del SaaS para hacerlo más escalable y dar de alta nuevos clientes con menos fricción',
-            'Desarrollo de endpoints en NestJS según producto explica los requisitos de cada funcionalidad, con TypeORM',
-            'Migración de variables de entorno y estilos de build-time a run-time, optimizando el pipeline CI/CD en Vercel',
-            'Integración de desarrollo asistido por IA (Claude) para acelerar la entrega de features y refactorizaciones',
-            'Colaboración con producto para traducir lógica financiera e hipotecaria en interfaces y APIs eficientes',
+            'Desarrollo y optimización de la plataforma frontend para el sector financiero e hipotecario',
+            'Migración de variables de entorno y estilos de build-time a run-time: despliegues sin recompilación y un entorno en Vercel más escalable para el SaaS',
+            'Diseño y refactor de la arquitectura frontend priorizando la mantenibilidad',
+            'Colaboración con producto para traducir requisitos complejos en soluciones técnicas, integrando servicios backend',
           ],
-          technologies: ['TypeScript', 'Next.js', 'React', 'NestJS', 'TypeORM', 'Vercel'],
+          technologies: ['TypeScript', 'Next.js', 'React', 'Vercel'],
         },
         {
           company: 'GAHN Logística y Gestión',
@@ -101,8 +100,6 @@ export const translations = {
         {
           title: 'Backend & DB',
           skills: [
-            'NestJS',
-            'TypeORM',
             'Node.js',
             'Python',
             'FastAPI',
@@ -113,12 +110,12 @@ export const translations = {
           ],
         },
         {
-          title: 'IA & Workflow',
-          skills: ['Claude Code', 'Cursor', 'Git', 'Vercel'],
+          title: 'Workflow',
+          skills: ['Git', 'Vercel'],
         },
         {
           title: 'Arquitectura',
-          skills: ['Clean Code', 'Clean Architecture', 'SaaS'],
+          skills: ['Clean Code', 'Clean Architecture', 'SaaS', 'Multitenant'],
         },
       ],
     },
@@ -170,8 +167,8 @@ export const translations = {
       title: 'Contacto',
       letsTalk: 'Hablemos',
       intro:
-        'Estoy disponible para nuevas oportunidades como desarrollador full-stack. Comprometido con escribir código claro, seguir aprendiendo y aportar valor al equipo.',
-      availability: 'Disponibilidad',
+        'Si quieres hablar de desarrollo, arquitectura o de alguno de mis proyectos, escríbeme.',
+      availability: 'Ubicación',
       contactInfo: 'Información de contacto',
       labels: {
         email: 'Email',
@@ -182,7 +179,6 @@ export const translations = {
       availabilityItems: [
         'Móstoles, Madrid',
         'Carnet de conducir y vehículo propio',
-        'Disponible para trabajo híbrido o remoto',
       ],
       copyright: '© 2026 Óscar García',
     },
@@ -191,7 +187,7 @@ export const translations = {
     meta: {
       title: 'Óscar García - Full-Stack Developer',
       description:
-        'Portfolio of Óscar García, full-stack developer: TypeScript (Next.js, React), NestJS and TypeORM in Fintech SaaS. Personal projects with FastAPI and Python. Experience with Angular and Java.',
+        'Portfolio of Óscar García, full-stack developer with Fintech experience. TypeScript end to end and Python (FastAPI) on personal projects.',
     },
     nav: {
       about: 'About',
@@ -203,30 +199,31 @@ export const translations = {
     hero: {
       title: 'Full-Stack Developer',
       description:
-        'Full-stack developer: TypeScript frontend (Next.js, React) and NestJS backend with TypeORM in Fintech SaaS. I also use FastAPI with Python on personal projects. Previous experience with Angular and Java.',
+        'Full-stack developer with Fintech experience. I work with TypeScript end to end and use Python (FastAPI) for the backend on my personal projects.',
       contactMe: 'Contact Me',
       viewProjects: 'View Projects',
     },
     about: {
       title: 'About Me',
       paragraph1:
-        'Full-stack developer with experience in Fintech and Logistics. Over the last year I have been more frontend-focused, but I also build APIs with NestJS as product defines requirements for new features.',
+        'I led the migration of a system to a multitenant architecture, reducing deployment times and speeding up the onboarding of new tenants.',
       paragraph2:
-        'On personal projects I use FastAPI with Python on the backend. I enjoy writing maintainable code, learning from every project, and using AI tools (Cursor, Claude Code) to stay productive.',
+        'I care about applications that scale and about teams that can work on them without friction, as in the multitenant migration.',
       highlights: [
         {
-          title: 'Full-stack stack',
+          title: 'TypeScript end to end',
           description:
-            'Next.js and React on the frontend; NestJS and TypeORM on product backend',
+            'TypeScript on the frontend; Python and FastAPI on the backend in personal projects',
         },
         {
-          title: 'Full-stack development',
+          title: 'Multitenant architecture',
           description:
-            'SaaS refactors and architecture to scale and onboard new clients more easily',
+            'Build-time to run-time migration to scale and onboard new clients with less friction',
         },
         {
-          title: 'Continuous learning',
-          description: 'Always exploring new technologies and best practices',
+          title: 'Maintainable code',
+          description:
+            'Clean Code and technical decisions made with the long-term team in mind',
         },
       ],
     },
@@ -239,13 +236,12 @@ export const translations = {
           position: 'Full-Stack Developer',
           period: 'January 2026 - Present',
           description: [
-            'Refactored the SaaS frontend to scale better and onboard new clients with less friction',
-            'Built NestJS endpoints as product explained requirements for each feature, using TypeORM',
-            'Migrated build-time environment variables and styles to run-time, optimizing the Vercel CI/CD pipeline',
-            'Integrated AI-assisted development (Cursor/Claude) to accelerate feature delivery and refactors',
-            'Worked with product to translate financial and mortgage logic into efficient interfaces and APIs',
+            'Development and optimization of the frontend platform for the financial and mortgage sector',
+            'Migrated environment variables and styles from build-time to run-time: deployments without rebuilds and a more scalable Vercel setup for the SaaS',
+            'Designed and refactored the frontend architecture with maintainability as the priority',
+            'Worked with product to turn complex requirements into technical solutions, integrating backend services',
           ],
-          technologies: ['TypeScript', 'Next.js', 'React', 'NestJS', 'TypeORM', 'Vercel'],
+          technologies: ['TypeScript', 'Next.js', 'React', 'Vercel'],
         },
         {
           company: 'GAHN Logística y Gestión',
@@ -286,8 +282,6 @@ export const translations = {
         {
           title: 'Backend & DB',
           skills: [
-            'NestJS',
-            'TypeORM',
             'Node.js',
             'Python',
             'FastAPI',
@@ -298,12 +292,12 @@ export const translations = {
           ],
         },
         {
-          title: 'AI & Workflow',
-          skills: ['Claude Code', 'Cursor', 'Git', 'Vercel'],
+          title: 'Workflow',
+          skills: ['Git', 'Vercel'],
         },
         {
           title: 'Architecture',
-          skills: ['Clean Code', 'Clean Architecture', 'SaaS'],
+          skills: ['Clean Code', 'Clean Architecture', 'SaaS', 'Multitenant'],
         },
       ],
     },
@@ -355,8 +349,8 @@ export const translations = {
       title: 'Contact',
       letsTalk: "Let's Talk",
       intro:
-        "I'm available for new opportunities as a full-stack developer. Committed to writing clear code, continuous learning, and contributing value to the team.",
-      availability: 'Availability',
+        'If you want to talk about development, architecture or any of my projects, get in touch.',
+      availability: 'Location',
       contactInfo: 'Contact Information',
       labels: {
         email: 'Email',
@@ -367,7 +361,6 @@ export const translations = {
       availabilityItems: [
         'Móstoles, Madrid',
         "Driver's license and own vehicle",
-        'Available for hybrid or remote work',
       ],
       copyright: '© 2026 Óscar García',
     },
