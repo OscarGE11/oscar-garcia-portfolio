@@ -20,20 +20,17 @@ const scrollToSection = (id: string) => {
         </h1>
         <h2 class="text-2xl md:text-3xl text-orange-500 font-semibold">{{ t.hero.title }}</h2>
         <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto text-pretty">
-          <template v-if="locale === 'es'">
-            Desarrollador full-stack: frontend con
-            <span class="text-green-500 font-semibold">TypeScript</span> (Next.js, React) y backend con
-            <span class="text-green-500 font-semibold">NestJS</span> y TypeORM en SaaS Fintech. En proyectos
-            personales también uso
-            <span class="text-green-500 font-semibold">FastAPI</span> con Python. Experiencia previa en Angular y Java.
-          </template>
-          <template v-else>
-            Full-stack developer: <span class="text-green-500 font-semibold">TypeScript</span> frontend (Next.js,
-            React) and <span class="text-green-500 font-semibold">NestJS</span> backend with TypeORM in Fintech SaaS. I
-            also use <span class="text-green-500 font-semibold">FastAPI</span> with Python on personal projects.
-            Previous experience with Angular and Java.
-          </template>
-        </p>
+  <template v-if="locale === 'es'">
+    Desarrollador full-stack con experiencia en Fintech. Trabajo con
+    <span class="text-green-500 font-semibold">TypeScript</span> de punta a punta y uso
+    <span class="text-green-500 font-semibold">Python</span> (FastAPI) para el backend en mis proyectos propios
+  </template>
+  <template v-else>
+    Full-stack developer with Fintech experience. I work with
+    <span class="text-green-500 font-semibold">TypeScript</span> end to end and use
+    <span class="text-green-500 font-semibold">Python</span> (FastAPI) for the backend in my personal projects
+  </template>
+</p>
 
         <div class="flex items-center justify-center gap-4 pt-6">
           <UiButton
