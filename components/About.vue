@@ -21,17 +21,13 @@ const bgColors = ['bg-orange-500/10', 'bg-green-500/10', 'bg-orange-500/10']
               Desarrollador full-stack con experiencia en sectores
               <span class="text-orange-500 font-semibold">Fintech</span> y
               <span class="text-orange-500 font-semibold">Logística</span>.
-              <span class="text-orange-500 font-semibold">TypeScript</span> es mi stack principal, con una base sólida
-              en <span class="text-orange-500 font-semibold">Angular</span> y
-              <span class="text-orange-500 font-semibold">Java</span> que sigo aplicando según el proyecto.
+              <span class="text-orange-500 font-semibold">TypeScript</span> es mi stack principal y <span class="text-orange-500 font-semibold">Python</span> para el backend en mis proyectos propios.
             </template>
             <template v-else>
               Full-stack developer with experience in
               <span class="text-orange-500 font-semibold">Fintech</span> and
               <span class="text-orange-500 font-semibold">Logistics</span>.
-              <span class="text-orange-500 font-semibold">TypeScript</span> is my main stack, with a solid foundation
-              in <span class="text-orange-500 font-semibold">Angular</span> and
-              <span class="text-orange-500 font-semibold">Java</span> that I still apply depending on the project.
+              <span class="text-orange-500 font-semibold">TypeScript</span> is my main stack and <span class="text-orange-500 font-semibold">Python</span> for the backend in my personal projects.
             </template>
           </p>
           <p class="text-lg text-slate-400 leading-relaxed">{{ t.about.paragraph2 }}</p>
